@@ -28,7 +28,8 @@ Create a plot with `sample` on the x-axis and `mass1` on the y-axis.
 plot(sample, mass1)
 ```
 
-![Plot 1](plot1.png)
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
+
 
 ---
 
@@ -38,7 +39,7 @@ Plot `mass2` (y-axis) against `sample` (x-axis). Use red (`r`) star (`*`) marker
 ```matlab
 plot(sample, mass2, "r*")
 ```
-
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
 ---
 
 ## Task 3  
@@ -50,7 +51,7 @@ Then plot `mass1` (y-axis) against `sample` (x-axis) with black (`k`) square (`s
 hold on
 plot(sample, mass1, "ks")
 ```
-
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
 ---
 
 ## Task 4  
@@ -59,7 +60,7 @@ Enter the `hold off` command.
 ```matlab
 hold off
 ```
-
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
 ---
 
 ## Task 5  
@@ -68,7 +69,7 @@ Plot the vector `v1`.
 ```matlab
 plot(v1)
 ```
-
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%203.png)
 ---
 
 ## Task 6  
@@ -77,7 +78,7 @@ Plot `v1` with a line width of 3.
 ```matlab
 plot(v1, LineWidth=3)
 ```
-
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%204.png)
 ---
 
 ## Task 7  
@@ -86,3 +87,5 @@ Plot `v1` (y-axis) against `sample` (x-axis) with red (`r`) circle (`o`) markers
 ```matlab
 plot(sample, v1, "ro-", LineWidth=4)
 ```
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%205.png)
+---

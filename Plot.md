@@ -39,7 +39,7 @@ Plot `mass2` (y-axis) against `sample` (x-axis). Use red (`r`) star (`*`) marker
 ```matlab
 plot(sample, mass2, "r*")
 ```
-![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%206.png)
 ---
 
 ## Task 3  
@@ -51,7 +51,7 @@ Then plot `mass1` (y-axis) against `sample` (x-axis) with black (`k`) square (`s
 hold on
 plot(sample, mass1, "ks")
 ```
-![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%207.png)
 ---
 
 ## Task 4  
@@ -60,7 +60,7 @@ Enter the `hold off` command.
 ```matlab
 hold off
 ```
-![Output](https://github.com/kashikaga/matlab/blob/main/plot%201.png)
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%202.png)
 ---
 
 ## Task 5  

@@ -89,3 +89,31 @@ plot(sample, v1, "ro-", LineWidth=4)
 ```
 ![Output](https://github.com/kashikaga/matlab/blob/main/plot%205.png)
 ---
+
+## Task 8
+You can add labels to plots using plot annotation functions, such as title. The input to these functions is text. Text in MATLAB is enclosed in double quotes (").
+title("Plot Title")
+
+### Task 8.1
+Add the title "Sample Mass" to the existing plot.
+```matlab
+title("Sample Mass")
+```
+You can add labels to your axes using the xlabel and ylabel functions.
+ylabel("Y-Axis Label")
+
+### Task 8.2
+Add the y-axis label "Mass (g)"
+```matlab
+ylabel("Mass (g)")
+```
+You can add a legend to your plot using the legend function.
+legend("a","b","c")
+### Task 8.3
+Create a legend with the labels "Exp A" and "Exp B", in that order.
+```matlab
+legend("Exp A","Exp B")
+```
+
+![Output](https://github.com/kashikaga/matlab/blob/main/plot%208.png)
+---

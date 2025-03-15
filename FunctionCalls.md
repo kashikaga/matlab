@@ -1,17 +1,33 @@
-You can apply the size function to a vector or matrix to produce a single output variable containing the array size in a two-element row vector. The first element is the number of rows and the second element is the number of columns.
-s = size(x)
 
-Task 1
-Create a variable named dsize containing the size of the data variable
+# MATLAB Array Size and Maximum Value Extraction
 
-You can also request two output variables from the size function. In this case, each variable contains the size of one of the dimensions of the input array. Use square brackets ([ ]) to request more than one output.
-[xrow,xcol] = size(x)
+This script demonstrates how to determine the size of a matrix, extract the number of rows and columns, and find the maximum value of a vector along with its index.
 
-Task 2
-Create the variables dr and dc that respectively contain the number of rows and columns of the variable data.
+## Tasks
 
-You can find the maximum value of a vector and its corresponding index value using the max function. The first output from the max function is the maximum value of the input vector. When called with two outputs, the second output is the index value.
-[xMax,idx] = max(x)
+### Task 1: Determine the Size of a Matrix
+Create a variable `dsize` that stores the size of the `data` variable.
 
-Task 3
-Create the variables vMax and ivMax containing the maximum value of the v2 vector and the corresponding index value, respectively
+```matlab
+dsize = size(data);
+```
+
+### Task 2: Extract Number of Rows and Columns
+Create the variables `dr` and `dc` that store the number of rows and columns of the `data` variable, respectively.
+
+```matlab
+[dr, dc] = size(data);
+```
+
+### Task 3: Find Maximum Value and Its Index
+Create the variables `vMax` and `ivMax` that store the maximum value of the `v2` vector and its corresponding index.
+
+```matlab
+[vMax, ivMax] = max(v2);
+```
+
+## Usage
+- Ensure that the `data` variable is defined as a matrix before executing the script.
+- The `v2` variable should be a vector for the `max` function to return meaningful results.
+
+This script is useful for basic matrix operations in MATLAB, especially for analyzing dataset dimensions and extracting key values.

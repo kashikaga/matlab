@@ -87,18 +87,7 @@
 | `x(x==999) = 1` | Replace all values in `x` that are equal to 999 with the value 1. |
 
 ## Programming
-| Example | Description |
-|---------|-------------|
-| 
-if x > 0.5
-    y = 3
-else
-    y = 4
-end | If `x` is greater than `0.5`, set `y` to `3`.<br><br>Otherwise, set `y` to `4`. |
-| 
-for c = 1:3
-    disp(c)
-end
-| The loop counter (`c`) progresses through the values `1:3` (1, 2, and 3).<br><br>The loop body displays each value of `c`. |
+![Programming MATLAB Onramp](https://github.com/kashikaga/matlab/raw/main/ProgrammingMatlabOnramp.png)
+
 
 
